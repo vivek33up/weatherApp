@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("bg.jpg");
+  position: relative;
+  background-size: cover; /* Adjust to your needs */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Outfit", sans-serif;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+input {
+  height: 40px;
+  width: 400px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+input::placeholder {
+  color: white; /* Replace with your desired color value */
+  font-weight: 500;
+}
+input:focus {
+  outline: none;
+}
+
+h1 {
+  font-weight: 400;
+}
+.content {
+  width: 1000px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 70px;
+  margin-left: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+.navbar {
+  font-weight: 600;
+}
+.temp {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.var {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pressure {
+  padding-right: 25px;
+}
+.full {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 30px;
+}
+.city {
+  font-size: 60px;
+}
+.temperature {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 400;
+}
+p {
+  font-size: 30px;
+  text-align: center;
+}
+.city {
+  text-align: center;
+}
